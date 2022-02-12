@@ -8,6 +8,7 @@ Solidity provides several elementary types which can be combined to form complex
 contract ValueTypes{
     // These types are called value types because variables of these types will always be passed by value.
     
+    // If we don't mention any values for a variable then the false value is initialized.
     bool b = true; // Boolean
     uint i = 10; // Unsigned Integers only store positive integers
     int j = -10; // Signed Integers can store both positive and negative int.
