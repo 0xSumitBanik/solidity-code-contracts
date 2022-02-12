@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 contract ConstantAndImmutable{
    // State variables can be declared as: constant or immutable.
-
+   // Constants and Immutables costs lesser gas as compared to other variables.
    // For constant variables, the value has to be fixed at compile-time, 
    // while for immutable, it can still be assigned at construction time. (inside constructor or declare at once).
 
