@@ -12,4 +12,12 @@ contract Loops{
     return sum;
     }
 
+    function whileLoop() external pure returns (uint){
+      uint index = 1;
+      uint sum = 0;
+      while(index < 10){
+        sum+=index;
+        index++;
+      }
+    }
 }
