@@ -19,5 +19,7 @@ contract Loops{
         sum+=index;
         index++;
       }
+
+      return sum;
     }
 }
