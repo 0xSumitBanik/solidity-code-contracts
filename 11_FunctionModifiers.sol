@@ -15,6 +15,9 @@ contract FunctionModifiers{
   // For example to add a prerequisite to a function.
   modifier LockEnabled() {
     require(!locked,"Locked");
+    // The function body is inserted where the special symbol "_;" 
+    // appears in the definition of a modifier. 
+    // So if condition of modifier is satisfied while calling this function, the function is executed and otherwise, an exception is thrown.
     _;
   }
 
