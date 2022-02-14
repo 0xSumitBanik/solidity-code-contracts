@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 contract FunctionModifiers{
 
   bool public locked;
-  uint8 public count;
+  uint public count;
 
   function enableLocked(bool _locked) external{
     locked = _locked;
@@ -40,4 +40,14 @@ contract FunctionModifiers{
     count-=1;
   }
 
+  //modifier with input parameter
+  modifier checkThreshold(uint _num){
+    // The number cannot be greater than 1000 as an increment value.
+    require(_num<=1000,"Greater than 1000");
+    _;
+  }
+
+  function incrementInThreshold(uint _num) external LockEnabled checkThreshold(_num){
+    count+=_num;
+  }
 }
