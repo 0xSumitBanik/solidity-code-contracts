@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0; 
 
-contract CaptureFunctionOutputs{
+contract Arrays{
   /* Fixed Size Arrays */
   uint constant SIZE = 5;
   uint[SIZE] public x = [1, 2, 3, 4, 5];
