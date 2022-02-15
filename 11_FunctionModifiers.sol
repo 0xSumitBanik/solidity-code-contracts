@@ -50,4 +50,17 @@ contract FunctionModifiers{
   function incrementInThreshold(uint _num) external LockEnabled checkThreshold(_num){
     count+=_num;
   }
+
+  modifier runFurtherCode(){
+    // First it will increment the count by 10
+    count+=10;
+    // Return to the function caller
+    _;
+    // Increment the overall value by 20
+    count+=20;
+  }
+
+  function runningFurtherCode() external runFurtherCode{
+    count+=100;
+  }
 }
