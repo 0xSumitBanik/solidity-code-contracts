@@ -10,4 +10,8 @@ contract CaptureFunctionOutputs{
   uint[SIZE] public y = [10, 20];
   //             index: [0    1]  2  3  4 -> these indexes are initialized with 0
 
+  /* Dynamic Size Arrays */
+  uint[] public d = [1,2];
+
+  
 }
