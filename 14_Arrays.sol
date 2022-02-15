@@ -12,6 +12,9 @@ contract Arrays{
 
   /* Dynamic Size Arrays */
   uint[] public d = [1,2];
+  
+  /* Dynamic Memory Arrays */
+  uint[]  arr = new uint[](SIZE);
 
   function arrayOperations() external {
     // Adding elements to the array
