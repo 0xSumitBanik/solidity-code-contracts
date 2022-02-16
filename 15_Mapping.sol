@@ -11,4 +11,10 @@ contract Mapping{
 
     delete balances[msg.sender]; // Sets it to false value (here, 0) for specified key
   }
+
+  /*
+    Note:
+    - You can mark state variables of mapping type as public and Solidity creates a getter for you. 
+    - The _KeyType becomes a parameter for the getter.
+   */
 }
