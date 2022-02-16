@@ -16,6 +16,16 @@ contract Arrays{
   /* Dynamic Memory Arrays */
   uint[]  arr = new uint[](SIZE);
 
+  function dynamicArraysInMemory() external pure returns(uint[] memory){
+    uint[] memory abc = new uint[](SIZE);
+    for(uint i=0;i<abc.length;i++){
+      abc[0]=10000; // Initializing the first element
+  }
+  // abc.pop(); // This will cause an error
+  // 👆 Member "pop" is not available in uint256[] memory outside of storage.
+  return abc;
+  }
+
   function arrayOperations() external {
     // Adding elements to the array
     d.push(); // This will push an empty element (here: uint 0)
