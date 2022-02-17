@@ -17,5 +17,6 @@ contract Mapping{
     Note:
     - You can mark state variables of mapping type as public and Solidity creates a getter for you. 
     - The _KeyType becomes a parameter for the getter.
+    - Mapping can only have type of storage
    */
 }
