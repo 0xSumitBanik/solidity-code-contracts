@@ -29,10 +29,12 @@ contract Structures{
     // 
     Book memory b1 = Book(10,"XYZ-1","xyz-1");
     Book memory b2 = Book(100,"XYZ-2","xyz-2");
+    Book memory b3 = Book(200,"XYZ-3","xyz-3");
 
     // Push the structure memory variable to the Books[]
     books.push(b1);
     books.push(b2);
+    books.push(b3);
 
     Book memory _booksArray = books[0];
     _booksArray.bookId=999; // This will not update as it's a memory type (will clear the updation after function scope)
@@ -40,7 +42,8 @@ contract Structures{
     Book storage _booksArrayStore = books[0];
     _booksArrayStore.bookId=999; // This will update as it's a storage type
 
-
     // More on Storage, Memory to be discussed in later section
+
+    delete books[2]; // This will reset the structure member values to false values
   }
 }
