@@ -17,4 +17,6 @@ contract Enums{
     ExtraLarge
   }
 
+  Size public size; // defaults value to 0
+
 }
