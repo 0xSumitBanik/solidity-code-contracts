@@ -21,4 +21,12 @@ contract Enums{
   // Find the smallest and largest value of Enum Size
   Size public smallestValue = type(Size).min; // 0
   Size public largestValue = type(Size).max; // 4
+
+  function getValue() external view returns (Size){
+    return size; // Will return the default value 0
+  }
+
+  function setCurrentValue(Size _s) external{
+    size = _s; // Will set the value to the uint that is passed
+  }
 }
