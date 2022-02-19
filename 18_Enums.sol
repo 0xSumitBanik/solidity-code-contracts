@@ -20,4 +20,5 @@ contract Enums{
   Size public size; // defaults value to 0
   // Find the smallest and largest value of Enum Size
   Size public smallestValue = type(Size).min;
+  Size public largestValue = type(Size).max;
 }
