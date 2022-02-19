@@ -12,6 +12,9 @@ contract Storage{
     data = _data;
   }
 
+
+  // The compiler automatically creates getter functions for all public state variables.
+  // This is just to demonstrate the getter method having memory data location.
   function getData() external view returns (string memory){
     return data;
   }
