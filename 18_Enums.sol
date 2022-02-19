@@ -8,4 +8,13 @@ contract Enums{
 
   // Enums require at least one member, and its default value when declared is the first member. 
   // Enums cannot have more than 256 members.
+
+  enum Size{
+    ExtraSmall,
+    Small,
+    Medium,
+    Large,
+    ExtraLarge
+  }
+
 }
