@@ -6,7 +6,7 @@ contract Loops{
     function sumOfNumbers() external pure returns (uint){
       uint index  = 1;
       uint sum = 0;
-      for(index = 1 ; index <= 10; index++){
+      for(index = 1 ; index <= 10; index++){ // Solidity also supports pre-increment operator ++index
           sum+=index;
       }
     return sum;
