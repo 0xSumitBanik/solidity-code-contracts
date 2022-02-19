@@ -34,5 +34,13 @@ contract Structures{
     books.push(b1);
     books.push(b2);
 
+    Book memory _booksArray = books[0];
+    _booksArray.bookId=999; // This will not update as it's a memory type (will clear the updation after function scope)
+
+    Book storage _booksArrayStore = books[0];
+    _booksArrayStore.bookId=999; // This will update as it's a storage type
+
+
+    // More on Storage, Memory to be discussed in later section
   }
 }
