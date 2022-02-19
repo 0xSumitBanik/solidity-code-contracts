@@ -26,4 +26,9 @@ contract DataLocation{
      return asset;
   }
 
+  function len(uint[] calldata _num) external pure returns (uint){
+    uint lenArray = _num.length;
+    return lenArray;
+  }
+
 }
