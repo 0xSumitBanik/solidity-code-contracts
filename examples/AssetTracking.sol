@@ -47,5 +47,8 @@ contract AssetTracking{
     assets[_assetIndex].status = _status;
   }
 
-
+  function getOrderStatus(uint _assetIndex) external view returns (OrderStatus){
+    // Retrieves the status for the passed asset index 
+    return assets[_assetIndex].status;
+  }
 }
