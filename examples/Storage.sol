@@ -2,6 +2,11 @@
 
 pragma solidity ^0.8.0; 
 
+// This example contract covers the concepts of:
+/*
+  - Data Locations
+  - memory, calldata
+*/
 contract Storage{
   string public data;
 
