@@ -47,6 +47,7 @@ contract AssetTracking{
     assets[_assetIndex].status = _status;
   }
 
+  // Anyone can call this function as onlyOwner modifier is not used
   function getOrderStatus(uint _assetIndex) external view returns (OrderStatus){
     // Retrieves the status for the passed asset index 
     return assets[_assetIndex].status;
