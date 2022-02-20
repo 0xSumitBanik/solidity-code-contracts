@@ -38,5 +38,9 @@ contract AssetTracking{
       );
   }
 
+  function updateOrderStatus(uint _assetIndex,OrderStatus _status) external onlyOwner{
+    assets[_assetIndex].status = _status;
+  }
+
 
 }
