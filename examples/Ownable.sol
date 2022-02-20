@@ -2,6 +2,11 @@
 
 pragma solidity ^0.8.0; 
 
+// This example contract covers the concepts of:
+/*
+  - Global Variables
+  - Error handling using: require()
+*/
 contract Ownable{
   address public owner; // Owner State Variable
   uint secretNumber;
