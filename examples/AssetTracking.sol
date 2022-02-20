@@ -4,11 +4,17 @@ pragma solidity ^0.8.0;
 
 contract AssetTracking{
 
+  address public owner;
+
   enum OrderStatus{
     Confirmed,
     Shipped,
     Delivered,
     Cancelled
+  }
+
+  constructor(){
+    owner = msg.sender;
   }
 
   struct Asset{
@@ -18,15 +24,19 @@ contract AssetTracking{
 
   Asset[] public assets;
 
-  function setOrderStatus(uint _assetId,OrderStatus _status) external{
+
+  modifier onlyOwner(){
+    require(owner == msg.sender,"Not an owner");
+    _;
+  }
+  function setOrderStatus(uint _assetId,OrderStatus _status) external onlyOwner{
       assets.push(
         Asset({
-          assetId:_assetId,
-          status:_status
+          assetId: _assetId,
+          status: _status
         })
       );
   }
-
 
 
 }
