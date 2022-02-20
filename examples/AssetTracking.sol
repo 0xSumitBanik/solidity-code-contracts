@@ -2,6 +2,13 @@
 
 pragma solidity ^0.8.0; 
 
+// This example contract covers the concepts of:
+/*
+  - Enums, Structs
+  - modifiers
+  - Struct Arrays
+  
+*/
 contract AssetTracking{
 
   address public owner;
