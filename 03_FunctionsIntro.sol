@@ -35,4 +35,9 @@ contract FunctionsIntro{
       return x**y;
     }
 
+    // This is function overloading; as we have same name function but diff. parameters
+    function add(uint x , uint y, uint z) external pure returns (uint){
+      return x+y+z;
+    }
+
 }
