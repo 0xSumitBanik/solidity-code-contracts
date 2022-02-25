@@ -12,7 +12,7 @@ contract ParentContract{
 
 contract ChildContract is ParentContract{
   // The following function is overriden with override contract and can also be overriden further as it has virtual keyword
-  function displayName() external virtual override pure returns (string memory){
+  function displayName() external override pure returns (string memory){
       return "This is Child Contract";
   }
 }
