@@ -2,6 +2,10 @@
 
 This repo contains the code snippets covering basic concepts of the Solidity smart contract programming language.
 
+![GitHub last commit](https://img.shields.io/github/last-commit/iSumitBanik/solidity-code-contracts?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/isumitbanik/solidity-code-contracts?style=flat-square)
+
+---
+
 ##### Table of Content
 
 - [First Contract](./01_FirstContract.sol)
