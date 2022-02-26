@@ -13,3 +13,5 @@ This repo contains the code snippets covering basic concepts of the Solidity sma
 - [Introduction to Function](./03_FunctionsIntro.sol)
 - [Variables](./04_Variables.sol)
 - [Global Variables](./05_GlobalVariables.sol)
+- [State Mutability Functions](./06_StateMutabilityFunctions.sol)
+- [Constant and Immutable Variables](./07_ConstantAndImmutableVariables.sol)
