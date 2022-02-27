@@ -2,7 +2,7 @@
 
 This repo contains the code snippets covering basic concepts of the Solidity smart contract programming language.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/iSumitBanik/solidity-code-contracts?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/isumitbanik/solidity-code-contracts?style=flat-square)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)  ![GitHub last commit](https://img.shields.io/github/last-commit/iSumitBanik/solidity-code-contracts?style=flat-square) ![GitHub top language](https://img.shields.io/github/languages/top/isumitbanik/solidity-code-contracts?style=flat-square)
 
 ---
 
@@ -29,3 +29,11 @@ This repo contains the code snippets covering basic concepts of the Solidity sma
 - [Data Location - storage, memory, calldata](./19_DataLocation.sol)
 - [Events](./20_Events.sol)
 - [Single Inheritance](./21_SingleInheritance.sol)
+
+---
+#### Donations ✅
+```txt
+BTC: bc1qvl0hfh474kqskjhg9n2junzlsvdlq7mdu53qdx
+ETH: 0x67012D3d4352F57B9C4966b104212d81dc590599
+SOL: 693pB8EHihjYteuZZ3wogeQ4fgXdwgPudgmjuubQvidc
+```
