@@ -29,6 +29,7 @@ This repo contains the code snippets covering basic concepts of the Solidity sma
 - [Data Location - storage, memory, calldata](./19_DataLocation.sol)
 - [Events](./20_Events.sol)
 - [Single Inheritance](./21_SingleInheritance.sol)
+- [Multi-Level Inheritance](./22_MultiLevelInheritance.sol)
 
 ---
 #### Donations ✅
