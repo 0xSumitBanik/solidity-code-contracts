@@ -11,4 +11,5 @@ contract Constructor{
     owner = msg.sender;
     balance = _balance;
   }
+  // Note: Constructor Overloading is not possible in Solidity
 }
