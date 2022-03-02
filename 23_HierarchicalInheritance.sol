@@ -3,11 +3,10 @@
 pragma solidity ^0.8.0; 
 
 /*
-Multi-level Inheritance:
+Hierarchical Inheritance:
 
-It is very similar to single inheritance, but the difference is that 
-it has levels of the relationship between the parent and the child. 
-The child contract derived from a parent also acts as a parent for the contract which is derived from it.
+In Hierarchical inheritance, a parent contract has more than one child contracts. 
+It is mostly used when a common functionality is to be used in different places.
 */
 
 contract ParentContract{
