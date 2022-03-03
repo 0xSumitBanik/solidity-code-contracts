@@ -43,7 +43,7 @@ contract StateMutabilityFunctions{
 
     // 'Function Visibility specifiers'
     // These can be placed where 'view' is, including:
-    // public - visible externally and internally (default for function)
+    // public - visible externally and internally
     // external - only visible externally (including a call made with this.)
     // private - only visible in the current contract
     // internal - only visible in current contract, and those deriving from it.
