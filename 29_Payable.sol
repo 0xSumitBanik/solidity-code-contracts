@@ -6,6 +6,7 @@ contract Payable{
   // payable is a modifier that can be added to a function.
   // It allows a function to receive ether while being called.
 
+  // The following function has a payable modifier which means it can receive ether
   function depositETH() external payable{
 
   }
