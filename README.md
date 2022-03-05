@@ -34,6 +34,9 @@ This repo contains the code snippets covering basic concepts of the Solidity sma
 - [Call Parent Constructor](./25_CallParentConstructor.sol)
 - [Visibility Specifiers](./26_VisibilitySpecifiers.sol)
 - [Call Parent Functions](./27_CallParentFunction.sol)
+- [Using this in Solidity](./28_ThisKeyword.sol)
+- [Payable](./29_Payable.sol)
+- [Special Functions - fallback and receive](./30_SpecialFunctions.sol)
 
 ---
 #### Donations ✅
