@@ -30,6 +30,10 @@ This repo contains the code snippets covering basic concepts of the Solidity sma
 - [Events](./20_Events.sol)
 - [Single Inheritance](./21_SingleInheritance.sol)
 - [Multi-Level Inheritance](./22_MultiLevelInheritance.sol)
+- [Hierarchical Inheritance](./23_HierarchicalInheritance.sol)
+- [Call Parent Constructor](./25_CallParentConstructor.sol)
+- [Visibility Specifiers](./26_VisibilitySpecifiers.sol)
+- [Call Parent Functions](./27_CallParentFunction.sol)
 
 ---
 #### Donations ✅
