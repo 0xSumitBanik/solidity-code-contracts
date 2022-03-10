@@ -13,7 +13,8 @@ contract VisibilitySpecifiers{
     x = 123;
   }
 
-  function internalFunction() internal{
+  // We put an underscore for internal functions as a part of convention
+  function _internalFunction() internal{
     y = 456;
   }
 
@@ -41,7 +42,7 @@ contract TestContract is VisibilitySpecifiers{
     uint derivedValue1 = z;  // We can inherit the public variable ✔
 
     // privateFunction();  👈 This will give an error as we cannot access private functions.
-    internalFunction(); // We can access the internal function ✔
+    _internalFunction(); // We can access the internal function ✔
     publicFunction();   // We can access the public function ✔
     
     // externalFunction();   We cannot access the external function ❌
