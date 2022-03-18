@@ -37,6 +37,11 @@ This repo contains the code snippets covering basic concepts of the Solidity sma
 - [Using this in Solidity](./28_ThisKeyword.sol)
 - [Payable](./29_Payable.sol)
 - [Special Functions - fallback and receive](./30_SpecialFunctions.sol)
+- [Sending Ether](./31_SendEther.sol)
+- [Call Functions from Another Contract](./32_CallFunctionFromAnotherContract.sol)
+- [Abstract Contract](./33_AbstractContract.sol)
+- [Interfaces](./34_Interfaces.sol)
+- [DelegateCall](./35_DelegateCall.sol)
 
 ---
 #### Donations ✅
