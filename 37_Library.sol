@@ -37,7 +37,10 @@ contract PerformMathOperations{
     return Math.max(a, b);
   }
 
+  // Following is the "using for" directive.
+  using Math for uint;
   function findMin(uint a,uint b) external pure returns(uint){
-    return Math.min(a, b);
+    // These functions will receive the object they are called on as their first parameter (like the self variable in Python).
+    return a.min(b);
   }  
 }
