@@ -49,7 +49,13 @@ contract ErrorHandling{
     }
 
     uint8 count = 100;
+    error UnAllowedNumbers(string errorMessage);
     function testRevert(uint _num) external{
+
+      if(_num == 0){
+        revert UnAllowedNumbers("Zero not allowed");
+      }
+
       if(_num<100){
         revert("Two Digit Number not allowed");
       }
