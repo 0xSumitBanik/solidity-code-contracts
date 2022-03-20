@@ -9,7 +9,9 @@ contract Mapping{
 
   function mappingOperations() external{
     balances[msg.sender] = 1000; // set the value for msg.sender to 1000
-
+    // This will cause an error 👇
+    // mapping(address => uint) memory newBalances;
+    // 👆 Mappings cannot be created dynamically, we have to assign them from a state variable.
     delete balances[msg.sender]; // Sets it to false value (here, 0) for specified key
   }
 
