@@ -42,6 +42,10 @@ This repo contains the code snippets covering basic concepts of the Solidity sma
 - [Abstract Contract](./33_AbstractContract.sol)
 - [Interfaces](./34_Interfaces.sol)
 - [DelegateCall](./35_DelegateCall.sol)
+- [Create Contracts using new keyword](./36_CreateContracts.sol)
+- [Solidity Library](./37_Library.sol)
+- [ABI Functions](./38_ABIFunctions.sol)
+- [Mathematical and Cryptographical Functions](./39_MathandCryptoFunctions.sol)
 
 ---
 #### Donations ✅
