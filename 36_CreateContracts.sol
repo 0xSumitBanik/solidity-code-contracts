@@ -23,6 +23,12 @@ contract CreateEV{
         evs.push(ev);
     }
 
+    function create2(address _owner,string calldata _model,uint _yearOfManufacture) external{
+        // This will create a new instance of EV contract and "ev" variable will have the new contract address
+        EV ev = new EV{salt:keccak256(abi.encode(block.timestamp))}(_owner,_model,_yearOfManufacture);
+        evs.push(ev);
+    }
+
     function createWithETH(address _owner,string calldata _model,uint _yearOfManufacture) external payable{
         // This EV contract will only be created if we send 111wei along with the transaction.
         EV ev = new EV{value:111}(_owner,_model,_yearOfManufacture);
