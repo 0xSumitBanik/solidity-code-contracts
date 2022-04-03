@@ -46,6 +46,7 @@ This repo contains the code snippets covering basic concepts of the Solidity sma
 - [Solidity Library](./37_Library.sol)
 - [ABI Functions](./38_ABIFunctions.sol)
 - [Mathematical and Cryptographical Functions](./39_MathandCryptoFunctions.sol)
+- [Self Destruct](./40_SelfDestruct.sol)
 
 ---
 #### Donations ✅
